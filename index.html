@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talko - Speech-to-Text with Voice Selection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background">
+
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <h1>Welcome to Speech-to-Text with Voice Selection</h1>
+            <p>Type text below and select a voice to read it out loud.</p>
+            <textarea id="text-input" placeholder="Type text to speak..." rows="4"></textarea><br>
+            <button id="speak-button">Speak</button>
+            <select id="voice-select">
+                <option>Select a voice</option>
+            </select>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h1>About This Tool</h1>
+            <p>Our Speech-to-Text Converter uses cutting-edge AI and voice recognition technology to provide seamless and fast text conversion. It’s designed for efficiency and accuracy.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h1>Contact Us</h1>
+            <p>Got questions or ideas? Get in touch with us!</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
